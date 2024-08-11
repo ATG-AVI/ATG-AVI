@@ -5,7 +5,7 @@
 🎓 **Student at SRM Institute of Science and Technology**  
 🖥️ **Passionate about Software Development and Design**  
 🌱 **Currently learning Flutter for App Development**  
-💬 **Ask me about:** C, C++, Python, Java, R, Lua, HTML, CSS, Figma, Adobe, Blender, and more!
+💬 **Ask me about:** C, C++, Python, Java, R, Lua, Dart, Flutter, HTML, CSS, Figma, Adobe, Blender, and more!
 
 ## 🛠️ Skills
 
@@ -16,10 +16,12 @@
 ![Java](https://img.shields.io/badge/-Java-007396?style=flat-square&logo=java&logoColor=white)
 ![R](https://img.shields.io/badge/-R-276DC3?style=flat-square&logo=r&logoColor=white)
 ![Lua](https://img.shields.io/badge/-Lua-2C2D72?style=flat-square&logo=lua&logoColor=white)
+![Dart](https://img.shields.io/badge/-Dart-0175C2?style=flat-square&logo=dart&logoColor=white)
 ![HTML](https://img.shields.io/badge/-HTML-E34F26?style=flat-square&logo=html5&logoColor=white)
 ![CSS](https://img.shields.io/badge/-CSS-1572B6?style=flat-square&logo=css3&logoColor=white)
 
 **Tools:**
+![Flutter](https://img.shields.io/badge/-Flutter-02569B?style=flat-square&logo=flutter&logoColor=white)
 ![Figma](https://img.shields.io/badge/-Figma-F24E1E?style=flat-square&logo=figma&logoColor=white)
 ![Adobe](https://img.shields.io/badge/-Adobe-FF0000?style=flat-square&logo=adobe&logoColor=white)
 ![Blender](https://img.shields.io/badge/-Blender-F5792A?style=flat-square&logo=blender&logoColor=white)
@@ -39,7 +41,3 @@
 ## 🤝 Contributions
 - Contributing to various open-source projects
 - Active participation in coding communities
-
----
-
-
