@@ -1,42 +1,77 @@
-# Hi there 👋, I'm Aviral!
+<div align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="./light.svg">
+    <img src="./dark.svg" alt="Aviral Sharma — AI & Mobile Engineer">
+  </picture>
+</div>
 
-![Profile Views](https://komarev.com/ghpvc/?username=ATG-AVI&color=blue)
+<br />
 
-🎓 **Student at SRM Institute of Science and Technology**  
-🖥️ **Passionate about Software Development and Design**  
-🌱 **Currently learning Flutter for App Development**  
-💬 **Ask me about:** C, C++, Python, Java, R, Lua, Dart, Flutter, HTML, CSS, Figma, Adobe, Blender, and more!
+### About
 
-## 🛠️ Skills
+**AI & Mobile Engineer** building agentic AI platforms, real-time voice pipelines, and native iOS / cross-platform mobile applications. Currently **Founding Engineer at Something**, pursuing a B.Tech in Computer Science & Engineering at **SRM Institute of Science & Technology** (`2023 – 2027`), and serving as **President of dBug Labs, SRMIST**.
 
-**Languages:**
-![C](https://img.shields.io/badge/-C-00599C?style=flat-square&logo=c&logoColor=white)
-![C++](https://img.shields.io/badge/-C++-00599C?style=flat-square&logo=c%2B%2B&logoColor=white)
-![Python](https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![Java](https://img.shields.io/badge/-Java-007396?style=flat-square&logo=java&logoColor=white)
-![R](https://img.shields.io/badge/-R-276DC3?style=flat-square&logo=r&logoColor=white)
-![Lua](https://img.shields.io/badge/-Lua-2C2D72?style=flat-square&logo=lua&logoColor=white)
-![Dart](https://img.shields.io/badge/-Dart-0175C2?style=flat-square&logo=dart&logoColor=white)
-![HTML](https://img.shields.io/badge/-HTML-E34F26?style=flat-square&logo=html5&logoColor=white)
-![CSS](https://img.shields.io/badge/-CSS-1572B6?style=flat-square&logo=css3&logoColor=white)
+- **Agentic AI & LLM Orchestration:** Tool calling, streamed tool inputs, SSE streaming, multi-agent workflows, and self-healing code generation loops across Claude API, OpenAI API, LangChain, and CrewAI.
+- **Real-Time Voice AI:** Low-latency voice agents powered by LiveKit, WebRTC, Voice Activity Detection (VAD), speech-to-text, LLMs, and streamed text-to-speech.
+- **Native iOS & Cross-Platform Mobile:** End-to-end product engineering and App Store release pipelines in SwiftUI, Flutter, React Native / Expo, Kotlin / Jetpack Compose, and Capacitor.js.
 
-**Tools:**
-![Flutter](https://img.shields.io/badge/-Flutter-02569B?style=flat-square&logo=flutter&logoColor=white)
-![Figma](https://img.shields.io/badge/-Figma-F24E1E?style=flat-square&logo=figma&logoColor=white)
-![Adobe](https://img.shields.io/badge/-Adobe-FF0000?style=flat-square&logo=adobe&logoColor=white)
-![Blender](https://img.shields.io/badge/-Blender-F5792A?style=flat-square&logo=blender&logoColor=white)
-![VS Code](https://img.shields.io/badge/-VS%20Code-007ACC?style=flat-square&logo=visual-studio-code&logoColor=white)
-![Android Studio](https://img.shields.io/badge/-Android%20Studio-3DDC84?style=flat-square&logo=android-studio&logoColor=white)
+---
 
-## 🌐 Find me around the web 🌍
-- [![LinkedIn](https://img.shields.io/badge/-LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/atg-avi)
-- [![Twitter](https://img.shields.io/badge/-Twitter-1DA1F2?style=flat-square&logo=twitter&logoColor=white)](https://twitter.com/ATG_AVI)
-- [![Discord](https://img.shields.io/badge/-Discord-5865F2?style=flat-square&logo=discord&logoColor=white)](https://discord.com/users/635139866841317379)
-- [![Email](https://img.shields.io/badge/-Email-D14836?style=flat-square&logo=gmail&logoColor=white)](mailto:imaviralsharma@gmail.com)
+### Experience
 
-## 📈 GitHub Stats
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=ATG-AVI&layout=compact&theme=radical)
+- **Founding Engineer — Something** *(Sep 2026 – Present · Remote, Bengaluru)*
+  - Building an agentic AI platform that turns a single prompt into a deployed AI agent with tools, UI, and runtime.
+  - Engineered LLM orchestration on the Claude API (tool calling, streamed tool inputs, SSE streaming) and real-time voice agents on LiveKit/WebRTC (`VAD -> STT -> LLM -> streamed TTS`).
+  - Built AI code generation with build validation and self-healing repair loops for Expo/React Native, native iOS (`SwiftUI`), and Android (`Kotlin`, `Jetpack Compose`), streaming live simulator/emulator sessions to the browser with QR handoff to physical devices.
+  - Deployed microservices on Fly.io and Docker with service-to-service authentication and sandboxed build environments.
+- **Software Developer Engineer — Thiskrit** *(Jul 2026 – Sep 2026 · Remote, England, UK)*
+  - Led end-to-end engineering for a privacy-first social platform built around a granular Spaces visibility model using Flutter, Node.js on AWS, and Firebase real-time sync.
+  - Built LLM-powered feed ranking, recommendations, and moderation pipelines with LangChain and the OpenAI API.
+- **Software Development Engineer (Part-time) — Famcare** *(Jul 2026 · Remote, Bengaluru)*
+  - Shipped booking, scheduling, and matching flows for a childcare marketplace on a shared Flutter/Capacitor.js codebase, alongside real-time REST APIs and iOS/Android release engineering.
+- **iOS Engineering Intern — Infosys** *(Mar 2026 – Apr 2026 · Onsite, Mysore)*
+  - Built a native `SwiftUI` logistics application digitizing dispatch, shipment tracking, and warehouse workflows, integrating LangChain agents for document parsing and anomaly detection.
+- **iOS & IoT Research Intern — MNIT / NIT Prayagraj** *(Sep 2025 – Oct 2025 · Onsite, Prayagraj)*
+  - Built a BLE IoT pill box paired with a native `SwiftUI` companion app for dose alerts and caregiver notifications.
+- **Software Engineering Intern — Indus (Rainmatter by Zerodha backed)** *(Feb 2025 – Aug 2025 · Remote, Auckland, NZ)*
+  - Built cross-border investment flows enabling New Zealand and Australian users to invest in Indian mutual funds across Flutter, Django, Go, Spring Boot, PostgreSQL, KYC, and Akahu open banking.
+- **Software Engineering Intern — ProdLabs** *(Nov 2024 – Jan 2025 · Remote, London, UK)*
+  - Built an AI wellness application in Flutter and `SwiftUI` with LangChain pipelines for journaling insights and mood tracking.
 
-## 🤝 Contributions
-- Contributing to various open-source projects
-- Active participation in coding communities
+---
+
+### Featured Projects
+
+| Project | Platform & Stack | Overview |
+| :--- | :--- | :--- |
+| **Rewind** *(Live on App Store)* | `Flutter` `SwiftUI` `CrewAI` `LangChain` `OpenAI API` `Firebase` | Cross-platform AI mental wellness app shipped via TestFlight and App Store Connect, powered by role-based CrewAI multi-agent workflows and LangChain personalization pipelines. |
+| **Ochima** | `SwiftUI` `CoreLocation` `MapKit` `Firebase` `LangChain` | Native iOS fleet logistics platform featuring live vehicle tracking, route visibility, Firebase-synced driver dashboards, and a LangChain trip insights assistant. |
+
+---
+
+### Engineering Stack
+
+| Domain | Technologies |
+| :--- | :--- |
+| **AI & Multi-Agent Systems** | LLMs, AI Agents, Agentic Workflows, Tool Calling, Claude API, OpenAI API, LangChain, CrewAI, RAG, Prompt Engineering |
+| **Real-Time Voice AI** | LiveKit, WebRTC, Speech-to-Text (STT), Text-to-Speech (TTS), Voice Activity Detection (VAD), Real-Time Streaming |
+| **Mobile Engineering** | SwiftUI, UIKit, Flutter, React Native, Expo, Kotlin, Jetpack Compose, Capacitor.js, BLoC, Core Data, MapKit, App Store Deployment |
+| **Languages** | Swift, Kotlin, Dart, Python, TypeScript, JavaScript, Go, Java, C, C++, SQL |
+| **Backend & Cloud** | FastAPI, Node.js, Next.js, React, Django, Spring Boot, REST APIs, SSE, AWS, Firebase, Supabase, PostgreSQL, MongoDB |
+| **Infrastructure & Tooling** | Git, Docker, Fly.io, Xcode, Android Studio, Gradle, TestFlight, Postman, Figma, CI/CD |
+
+---
+
+### Leadership & Education
+
+- **President, dBug Labs — SRMIST** *(2023 – Present)*: Lead a student developer community organizing hackathons and technical workshops; multiple hackathon wins and finalist placements.
+- **B.Tech in Computer Science & Engineering** — SRM Institute of Science & Technology, Chennai *(2023 – 2027)*.
+
+---
+
+### Connect
+
+- **GitHub:** [github.com/ATG-AVI](https://github.com/ATG-AVI)
+- **LinkedIn:** [linkedin.com/in/atg-avi](https://www.linkedin.com/in/atg-avi)
+- **Email:** [imaviralsharma@gmail.com](mailto:imaviralsharma@gmail.com)
