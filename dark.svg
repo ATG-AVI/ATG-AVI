@@ -1,0 +1,358 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1180" height="610" viewBox="0 0 1180 610" role="img" aria-label="Aviral Sharma — AI and Mobile Engineer GitHub Profile Banner">
+  <defs>
+    <linearGradient id="bgDark" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#030712" />
+      <stop offset="52%" stop-color="#07111F" />
+      <stop offset="100%" stop-color="#0B1220" />
+    </linearGradient>
+
+    <radialGradient id="glowViolet" cx="18%" cy="22%" r="55%">
+      <stop offset="0%" stop-color="#7C3AED" stop-opacity="0.22" />
+      <stop offset="100%" stop-color="#7C3AED" stop-opacity="0" />
+    </radialGradient>
+
+    <radialGradient id="glowCyan" cx="84%" cy="78%" r="58%">
+      <stop offset="0%" stop-color="#22D3EE" stop-opacity="0.16" />
+      <stop offset="100%" stop-color="#22D3EE" stop-opacity="0" />
+    </radialGradient>
+
+    <radialGradient id="glowEmerald" cx="55%" cy="12%" r="45%">
+      <stop offset="0%" stop-color="#10B981" stop-opacity="0.10" />
+      <stop offset="100%" stop-color="#10B981" stop-opacity="0" />
+    </radialGradient>
+
+    <linearGradient id="frameStrokeDark" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#7C3AED" stop-opacity="0.65" />
+      <stop offset="50%" stop-color="#22D3EE" stop-opacity="0.55" />
+      <stop offset="100%" stop-color="#10B981" stop-opacity="0.50" />
+    </linearGradient>
+
+    <linearGradient id="glassSurfaceDark" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#1E293B" stop-opacity="0.42" />
+      <stop offset="100%" stop-color="#0F172A" stop-opacity="0.62" />
+    </linearGradient>
+
+    <linearGradient id="asciiInkDark" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#E0F2FE" />
+      <stop offset="48%" stop-color="#38BDF8" />
+      <stop offset="100%" stop-color="#A78BFA" />
+    </linearGradient>
+
+    <linearGradient id="accentBarDark" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#7C3AED" />
+      <stop offset="50%" stop-color="#22D3EE" />
+      <stop offset="100%" stop-color="#10B981" />
+    </linearGradient>
+
+    <linearGradient id="scanSweepDark" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#22D3EE" stop-opacity="0" />
+      <stop offset="50%" stop-color="#22D3EE" stop-opacity="0.18" />
+      <stop offset="100%" stop-color="#22D3EE" stop-opacity="0" />
+    </linearGradient>
+
+    <pattern id="gridDark" width="24" height="24" patternUnits="userSpaceOnUse">
+      <path d="M 24 0 L 0 0 0 24" fill="none" stroke="#1E293B" stroke-width="0.7" stroke-opacity="0.42" />
+    </pattern>
+
+    <pattern id="scanlinesDark" width="4" height="4" patternUnits="userSpaceOnUse">
+      <line x1="0" y1="0" x2="4" y2="0" stroke="#38BDF8" stroke-width="0.5" stroke-opacity="0.06" />
+    </pattern>
+
+    <clipPath id="portraitClipDark">
+      <rect x="52" y="102" width="392" height="328" rx="12" />
+    </clipPath>
+
+    <filter id="softGlowDark" x="-15%" y="-15%" width="130%" height="130%">
+      <feGaussianBlur stdDeviation="3" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+
+    <style>
+      .mono { font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace; }
+      .ascii { font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace; font-size: 7.2px; letter-spacing: 0.35px; }
+    </style>
+  </defs>
+
+  <!-- Base Canvas -->
+  <rect x="12" y="12" width="1156" height="586" rx="22" fill="url(#bgDark)" />
+  <rect x="12" y="12" width="1156" height="586" rx="22" fill="url(#gridDark)" />
+  <rect x="12" y="12" width="1156" height="586" rx="22" fill="url(#glowViolet)" />
+  <rect x="12" y="12" width="1156" height="586" rx="22" fill="url(#glowCyan)" />
+  <rect x="12" y="12" width="1156" height="586" rx="22" fill="url(#glowEmerald)" />
+
+  <!-- Ambient Floating Particles -->
+  <circle cx="92" cy="84" r="1.6" fill="#22D3EE" opacity="0.45">
+    <animate attributeName="cy" values="84;76;84" dur="7s" repeatCount="indefinite" />
+    <animate attributeName="opacity" values="0.25;0.65;0.25" dur="7s" repeatCount="indefinite" />
+  </circle>
+  <circle cx="430" cy="495" r="1.5" fill="#A78BFA" opacity="0.45">
+    <animate attributeName="cy" values="495;486;495" dur="8.5s" repeatCount="indefinite" />
+  </circle>
+  <circle cx="1108" cy="136" r="1.8" fill="#10B981" opacity="0.45">
+    <animate attributeName="cy" values="136;127;136" dur="6.5s" repeatCount="indefinite" />
+  </circle>
+
+  <!-- Outer Frame Border -->
+  <rect x="12" y="12" width="1156" height="586" rx="22" fill="none" stroke="url(#frameStrokeDark)" stroke-width="1.2" />
+
+  <!-- Top Terminal Chrome -->
+  <path d="M 12 34 Q 12 12 34 12 L 1146 12 Q 1168 12 1168 34 L 1168 52 L 12 52 Z" fill="#0B1220" fill-opacity="0.82" />
+  <line x1="12" y1="52" x2="1168" y2="52" stroke="#1E293B" stroke-width="1" />
+
+  <!-- Window Controls -->
+  <circle cx="36" cy="32" r="5.5" fill="#EF4444" fill-opacity="0.9" />
+  <circle cx="56" cy="32" r="5.5" fill="#F59E0B" fill-opacity="0.9" />
+  <circle cx="76" cy="32" r="5.5" fill="#10B981" fill-opacity="0.9" />
+
+  <!-- Terminal Header Path -->
+  <text x="104" y="36" class="mono" font-size="12" fill="#94A3B8">atg-avi@github:~<tspan fill="#22D3EE">/profile</tspan></text>
+
+  <!-- Decorative Editor Tabs -->
+  <text x="590" y="36" text-anchor="middle" class="mono" font-size="11" fill="#64748B" letter-spacing="1.2">VISUAL.MAP   //   SYSTEM.INFO   //   PORTFOLIO.SH</text>
+
+  <!-- Status Pill -->
+  <rect x="1042" y="21" width="106" height="22" rx="11" fill="#10B981" fill-opacity="0.12" stroke="#10B981" stroke-opacity="0.4" stroke-width="1" />
+  <circle cx="1057" cy="32" r="3.5" fill="#10B981">
+    <animate attributeName="opacity" values="1;0.35;1" dur="2.4s" repeatCount="indefinite" />
+  </circle>
+  <text x="1068" y="36" class="mono" font-size="10.5" font-weight="600" fill="#34D399" letter-spacing="0.8">ONLINE</text>
+
+  <!-- ========================================================= -->
+  <!-- LEFT COLUMN: VISUAL.MAP & ASCII PORTRAIT                  -->
+  <!-- ========================================================= -->
+  <rect x="28" y="66" width="440" height="516" rx="16" fill="url(#glassSurfaceDark)" stroke="#1E293B" stroke-width="1" />
+  <rect x="28" y="66" width="440" height="516" rx="16" fill="none" stroke="url(#frameStrokeDark)" stroke-width="0.8" stroke-opacity="0.5" />
+
+  <!-- Left Panel Header -->
+  <text x="48" y="89" class="mono" font-size="11" font-weight="700" fill="#22D3EE" letter-spacing="1.4">VISUAL.MAP</text>
+  <text x="448" y="89" text-anchor="end" class="mono" font-size="10.5" fill="#64748B" letter-spacing="0.8">[ ASCII // 42x50 ]</text>
+
+  <!-- ASCII Portrait Frame -->
+  <rect x="52" y="102" width="392" height="328" rx="12" fill="#030712" fill-opacity="0.72" stroke="#1E293B" stroke-width="1" />
+  <rect x="52" y="102" width="392" height="328" rx="12" fill="url(#scanlinesDark)" />
+
+  <!-- Corner Reticles -->
+  <path d="M 62 118 L 62 112 L 68 112" fill="none" stroke="#22D3EE" stroke-width="1.2" stroke-opacity="0.75" />
+  <path d="M 434 118 L 434 112 L 428 112" fill="none" stroke="#22D3EE" stroke-width="1.2" stroke-opacity="0.75" />
+  <path d="M 62 414 L 62 420 L 68 420" fill="none" stroke="#7C3AED" stroke-width="1.2" stroke-opacity="0.75" />
+  <path d="M 434 414 L 434 420 L 428 420" fill="none" stroke="#7C3AED" stroke-width="1.2" stroke-opacity="0.75" />
+
+  <!-- ASCII Portrait (Cropped: Head + Shoulders + Upper Chest) -->
+  <g clip-path="url(#portraitClipDark)">
+    <g filter="url(#softGlowDark)">
+      <animateTransform attributeName="transform" type="translate" values="0,0; 0,-2.5; 0,0" dur="6s" repeatCount="indefinite" />
+      <text x="248" y="116" text-anchor="middle" fill="url(#asciiInkDark)" class="ascii" xml:space="preserve">
+        <tspan x="248" dy="0">                 .·:+*######*+:·.                 </tspan>
+        <tspan x="248" dy="7.4">               :+*@@@@@@@@@@@@@@@@*+:             </tspan>
+        <tspan x="248" dy="7.4">             :*@@@@@@@@@@@@@@@@@@@@@@*:           </tspan>
+        <tspan x="248" dy="7.4">            +@@@@@@@@@@@@@@@@@@@@@@@@@@+          </tspan>
+        <tspan x="248" dy="7.4">           #@@@@@@@@@@@@@@@@@@@@@@@@@@@@#         </tspan>
+        <tspan x="248" dy="7.4">          #@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@#        </tspan>
+        <tspan x="248" dy="7.4">          @@@@@@#*++::::::::::::++*#@@@@@@        </tspan>
+        <tspan x="248" dy="7.4">         @@@@@+:····················:+@@@@@       </tspan>
+        <tspan x="248" dy="7.4">         @@@@:························:@@@@       </tspan>
+        <tspan x="248" dy="7.4">         @@@:··:++++++:······:++++++:··:@@@       </tspan>
+        <tspan x="248" dy="7.4">        +@@:··*########:····:########*··:@@+      </tspan>
+        <tspan x="248" dy="7.4">        @@+·+===========+::+===========+·+@@      </tspan>
+        <tspan x="248" dy="7.4">        @@|·|  ·+*@@*+· |==| ·+*@@*+·  |·|@@      </tspan>
+        <tspan x="248" dy="7.4">        @@|·|  ·*@@@@*· |··| ·*@@@@*·  |·|@@      </tspan>
+        <tspan x="248" dy="7.4">        @@+·+===========+::+===========+·+@@      </tspan>
+        <tspan x="248" dy="7.4">        +@:······::::····++····::::······:@+      </tspan>
+        <tspan x="248" dy="7.4">         @:·············:++:·············:@       </tspan>
+        <tspan x="248" dy="7.4">         @:············+*##*+············:@       </tspan>
+        <tspan x="248" dy="7.4">         +:··········+########+··········:+       </tspan>
+        <tspan x="248" dy="7.4">         +:·········###======###·········:+       </tspan>
+        <tspan x="248" dy="7.4">         ·+········###========###········+·       </tspan>
+        <tspan x="248" dy="7.4">          +:········###======###········:+        </tspan>
+        <tspan x="248" dy="7.4">          ·+:········##########········:+·        </tspan>
+        <tspan x="248" dy="7.4">           ++:·······*########*·······:++         </tspan>
+        <tspan x="248" dy="7.4">            *+:·······*######*·······:+*          </tspan>
+        <tspan x="248" dy="7.4">             #*+:······+*##*+······:+*#           </tspan>
+        <tspan x="248" dy="7.4">              ##*+:·····::::·····:+*##            </tspan>
+        <tspan x="248" dy="7.4">               ###*+::::::::::::+*###             </tspan>
+        <tspan x="248" dy="7.4">                 ###**++++++++**###               </tspan>
+        <tspan x="248" dy="7.4">               .:+*################*+:.           </tspan>
+        <tspan x="248" dy="7.4">            .:+*######@@++++@@######*+:.          </tspan>
+        <tspan x="248" dy="7.4">          .:+*########@@+**+@@########*+:.        </tspan>
+        <tspan x="248" dy="7.4">        .:+*##########@@++++@@##########*+:.      </tspan>
+        <tspan x="248" dy="7.4">       :+*############@@+**+@@############*+:     </tspan>
+        <tspan x="248" dy="7.4">      +*##############@@++++@@##############*+    </tspan>
+        <tspan x="248" dy="7.4">     *################@@****@@################*   </tspan>
+        <tspan x="248" dy="7.4">    #@@@@@@@@@@@@@@@@@########@@@@@@@@@@@@@@@@@#  </tspan>
+        <tspan x="248" dy="7.4">   #@@@@@@@@@@@@@@@@@@########@@@@@@@@@@@@@@@@@@# </tspan>
+        <tspan x="248" dy="7.4">  @@@@@@@@@@@@@@@@@@@@########@@@@@@@@@@@@@@@@@@@@</tspan>
+        <tspan x="248" dy="7.4"> @@@@@@@@@@@@@@@@@@@@@########@@@@@@@@@@@@@@@@@@@@</tspan>
+        <tspan x="248" dy="7.4">@@@@@@@@@@@@@@@@@@@@@@########@@@@@@@@@@@@@@@@@@@@</tspan>
+        <tspan x="248" dy="7.4">@@@@@@@@@@@@@@@@@@@@@@########@@@@@@@@@@@@@@@@@@@@</tspan>
+      </text>
+    </g>
+
+    <!-- Subtle Vertical Scanline Sweep -->
+    <rect x="52" y="102" width="392" height="36" fill="url(#scanSweepDark)">
+      <animate attributeName="y" values="90;430;90" dur="7.5s" repeatCount="indefinite" />
+    </rect>
+  </g>
+
+  <!-- Left Identity Summary -->
+  <text x="248" y="454" text-anchor="middle" class="mono" font-size="10.5" font-weight="600" fill="#A78BFA" letter-spacing="1.6">[ ENGINEERING // AI & MOBILE ]</text>
+  <text x="248" y="479" text-anchor="middle" class="mono" font-size="16" font-weight="700" fill="#F8FAFC">AI & Mobile Engineer</text>
+  <text x="248" y="501" text-anchor="middle" class="mono" font-size="11.5" fill="#94A3B8">Agentic AI · Voice Systems · Native iOS & Flutter</text>
+
+  <!-- Command Prompt Pill -->
+  <rect x="86" y="520" width="324" height="34" rx="8" fill="#030712" fill-opacity="0.75" stroke="#1E293B" stroke-width="1" />
+  <text x="248" y="541" text-anchor="middle" class="mono" font-size="11.5" fill="#94A3B8">
+    <tspan fill="#10B981">~/atg-avi</tspan> <tspan fill="#22D3EE">$</tspan> <tspan fill="#E2E8F0">build --agents --mobile</tspan><tspan fill="#22D3EE">_<animate attributeName="opacity" values="1;0;1" dur="1.1s" repeatCount="indefinite" /></tspan>
+  </text>
+
+  <!-- ========================================================= -->
+  <!-- RIGHT COLUMN: SYSTEM.INFO                                 -->
+  <!-- ========================================================= -->
+  <rect x="480" y="66" width="672" height="516" rx="16" fill="url(#glassSurfaceDark)" stroke="#1E293B" stroke-width="1" />
+  <rect x="480" y="66" width="672" height="516" rx="16" fill="none" stroke="url(#frameStrokeDark)" stroke-width="0.8" stroke-opacity="0.5" />
+
+  <!-- Right Panel Header -->
+  <text x="504" y="89" class="mono" font-size="11" font-weight="700" fill="#22D3EE" letter-spacing="1.4">SYSTEM.INFO</text>
+  <text x="1128" y="89" text-anchor="end" class="mono" font-size="11" fill="#64748B">atg-avi@github:~$ <tspan fill="#E2E8F0">./profile.sh</tspan></text>
+  <line x1="496" y1="102" x2="1136" y2="102" stroke="#1E293B" stroke-width="1" />
+
+  <!-- Name & Primary Headline -->
+  <text x="504" y="138" class="mono" font-size="30" font-weight="700" fill="#F8FAFC" letter-spacing="-0.4">Aviral Sharma</text>
+  <rect x="504" y="148" width="96" height="2.5" rx="1.25" fill="url(#accentBarDark)" />
+  <text x="504" y="170" class="mono" font-size="14.5" font-weight="600" fill="#22D3EE">AI & Mobile Engineer</text>
+
+  <!-- Rotating Active Focus / Role Line (SMIL) -->
+  <text x="504" y="193" class="mono" font-size="12" fill="#64748B">ACTIVE //</text>
+
+  <g class="mono" font-size="12.5" font-weight="600" fill="#A78BFA">
+    <text x="576" y="193" opacity="1">
+      Founding Engineer @ Something · Agentic AI Platform
+      <animate attributeName="opacity" values="1;1;0;0;0;0;0;0;1" keyTimes="0;0.22;0.25;0.47;0.50;0.72;0.75;0.97;1" dur="16s" repeatCount="indefinite" />
+    </text>
+    <text x="576" y="193" opacity="0">
+      LLM Orchestration · Claude API, OpenAI API, LangChain, CrewAI
+      <animate attributeName="opacity" values="0;0;1;1;0;0;0;0;0" keyTimes="0;0.22;0.25;0.47;0.50;0.72;0.75;0.97;1" dur="16s" repeatCount="indefinite" />
+    </text>
+    <text x="576" y="193" opacity="0">
+      Real-Time Voice AI · LiveKit, WebRTC, VAD, STT & Streamed TTS
+      <animate attributeName="opacity" values="0;0;0;0;1;1;0;0;0" keyTimes="0;0.22;0.25;0.47;0.50;0.72;0.75;0.97;1" dur="16s" repeatCount="indefinite" />
+    </text>
+    <text x="576" y="193" opacity="0">
+      Native iOS (SwiftUI) & Cross-Platform Mobile (Flutter / React Native)
+      <animate attributeName="opacity" values="0;0;0;0;0;0;1;1;0" keyTimes="0;0.22;0.25;0.47;0.50;0.72;0.75;0.97;1" dur="16s" repeatCount="indefinite" />
+    </text>
+  </g>
+
+  <line x1="504" y1="208" x2="1128" y2="208" stroke="#1E293B" stroke-width="1" />
+
+  <!-- Balanced Two-Column Profile Metadata -->
+  <g class="mono" font-size="12">
+    <text x="598" y="232" text-anchor="end" fill="#64748B" font-weight="600">ROLE</text>
+    <text x="610" y="232" fill="#334155">:</text>
+    <text x="622" y="232" fill="#F8FAFC">Founding Engineer · <tspan fill="#22D3EE">Something</tspan> <tspan fill="#94A3B8">(Sep 2026 – Present)</tspan></text>
+
+    <text x="598" y="254" text-anchor="end" fill="#64748B" font-weight="600">PREVIOUS</text>
+    <text x="610" y="254" fill="#334155">:</text>
+    <text x="622" y="254" fill="#E2E8F0">Thiskrit · Famcare · Infosys · MNIT · Indus · ProdLabs</text>
+
+    <text x="598" y="276" text-anchor="end" fill="#64748B" font-weight="600">EDUCATION</text>
+    <text x="610" y="276" fill="#334155">:</text>
+    <text x="622" y="276" fill="#E2E8F0">B.Tech CSE · SRM Institute of Science & Technology <tspan fill="#94A3B8">(2023 – 2027)</tspan></text>
+
+    <text x="598" y="298" text-anchor="end" fill="#64748B" font-weight="600">LOCATION</text>
+    <text x="610" y="298" fill="#334155">:</text>
+    <text x="622" y="298" fill="#E2E8F0">Chennai, India <tspan fill="#64748B">·</tspan> <tspan fill="#94A3B8">President, dBug Labs (SRMIST)</tspan></text>
+
+    <text x="598" y="320" text-anchor="end" fill="#64748B" font-weight="600">FOCUS</text>
+    <text x="610" y="320" fill="#334155">:</text>
+    <text x="622" y="320" fill="#34D399">Agentic AI · Voice AI · Native iOS · Cross-Platform Mobile</text>
+  </g>
+
+  <line x1="504" y1="336" x2="1128" y2="336" stroke="#1E293B" stroke-width="1" />
+
+  <!-- Core Stack Pills -->
+  <text x="504" y="354" class="mono" font-size="10.5" font-weight="700" fill="#94A3B8" letter-spacing="1.4">CORE_STACK</text>
+
+  <!-- Pill Row 1 -->
+  <g class="mono" font-size="11.5" fill="#E2E8F0">
+    <rect x="504" y="364" width="78" height="26" rx="6" fill="#0F172A" fill-opacity="0.85" stroke="#22D3EE" stroke-opacity="0.35" stroke-width="1" />
+    <circle cx="516" cy="377" r="2.8" fill="#22D3EE" />
+    <text x="526" y="381">Python</text>
+
+    <rect x="590" y="364" width="122" height="26" rx="6" fill="#0F172A" fill-opacity="0.85" stroke="#7C3AED" stroke-opacity="0.4" stroke-width="1" />
+    <circle cx="602" cy="377" r="2.8" fill="#A78BFA" />
+    <text x="612" y="381">Swift / SwiftUI</text>
+
+    <rect x="720" y="364" width="82" height="26" rx="6" fill="#0F172A" fill-opacity="0.85" stroke="#22D3EE" stroke-opacity="0.35" stroke-width="1" />
+    <circle cx="732" cy="377" r="2.8" fill="#38BDF8" />
+    <text x="742" y="381">Flutter</text>
+
+    <rect x="810" y="364" width="116" height="26" rx="6" fill="#0F172A" fill-opacity="0.85" stroke="#10B981" stroke-opacity="0.35" stroke-width="1" />
+    <circle cx="822" cy="377" r="2.8" fill="#34D399" />
+    <text x="832" y="381">React Native</text>
+
+    <rect x="934" y="364" width="78" height="26" rx="6" fill="#0F172A" fill-opacity="0.85" stroke="#7C3AED" stroke-opacity="0.4" stroke-width="1" />
+    <circle cx="946" cy="377" r="2.8" fill="#A78BFA" />
+    <text x="956" y="381">Kotlin</text>
+
+    <rect x="1020" y="364" width="108" height="26" rx="6" fill="#0F172A" fill-opacity="0.85" stroke="#22D3EE" stroke-opacity="0.35" stroke-width="1" />
+    <circle cx="1032" cy="377" r="2.8" fill="#22D3EE" />
+    <text x="1042" y="381">TypeScript</text>
+  </g>
+
+  <!-- Pill Row 2 -->
+  <g class="mono" font-size="11.5" fill="#E2E8F0">
+    <rect x="504" y="398" width="156" height="26" rx="6" fill="#0F172A" fill-opacity="0.85" stroke="#7C3AED" stroke-opacity="0.4" stroke-width="1" />
+    <circle cx="516" cy="411" r="2.8" fill="#A78BFA" />
+    <text x="526" y="415">Claude & OpenAI API</text>
+
+    <rect x="668" y="398" width="150" height="26" rx="6" fill="#0F172A" fill-opacity="0.85" stroke="#10B981" stroke-opacity="0.35" stroke-width="1" />
+    <circle cx="680" cy="411" r="2.8" fill="#34D399" />
+    <text x="690" y="415">LangChain / CrewAI</text>
+
+    <rect x="826" y="398" width="136" height="26" rx="6" fill="#0F172A" fill-opacity="0.85" stroke="#22D3EE" stroke-opacity="0.35" stroke-width="1" />
+    <circle cx="838" cy="411" r="2.8" fill="#22D3EE" />
+    <text x="848" y="415">LiveKit / WebRTC</text>
+
+    <rect x="970" y="398" width="158" height="26" rx="6" fill="#0F172A" fill-opacity="0.85" stroke="#10B981" stroke-opacity="0.35" stroke-width="1" />
+    <circle cx="982" cy="411" r="2.8" fill="#34D399" />
+    <text x="992" y="415">FastAPI / Node.js</text>
+  </g>
+
+  <line x1="504" y1="436" x2="1128" y2="436" stroke="#1E293B" stroke-width="1" />
+
+  <!-- Selected Shipped Projects -->
+  <text x="504" y="454" class="mono" font-size="10.5" font-weight="700" fill="#94A3B8" letter-spacing="1.4">SELECTED_PROJECTS</text>
+
+  <!-- Project 1: Rewind -->
+  <rect x="504" y="464" width="306" height="58" rx="9" fill="#030712" fill-opacity="0.65" stroke="#1E293B" stroke-width="1" />
+  <text x="518" y="484" class="mono" font-size="12.5" font-weight="700" fill="#F8FAFC">Rewind</text>
+  <text x="796" y="484" text-anchor="end" class="mono" font-size="10" font-weight="600" fill="#34D399">LIVE ON APP STORE</text>
+  <text x="518" y="505" class="mono" font-size="10.5" fill="#94A3B8">AI wellness app · Flutter, SwiftUI, CrewAI</text>
+
+  <!-- Project 2: Ochima -->
+  <rect x="822" y="464" width="306" height="58" rx="9" fill="#030712" fill-opacity="0.65" stroke="#1E293B" stroke-width="1" />
+  <text x="836" y="484" class="mono" font-size="12.5" font-weight="700" fill="#F8FAFC">Ochima</text>
+  <text x="1114" y="484" text-anchor="end" class="mono" font-size="10" font-weight="600" fill="#22D3EE">iOS // FLEET AI</text>
+  <text x="836" y="505" class="mono" font-size="10.5" fill="#94A3B8">Fleet logistics · SwiftUI, MapKit, LangChain</text>
+
+  <line x1="504" y1="534" x2="1128" y2="534" stroke="#1E293B" stroke-width="1" />
+
+  <!-- Footer Links -->
+  <g class="mono" font-size="11.5">
+    <a href="https://github.com/ATG-AVI" target="_blank">
+      <text x="504" y="558" fill="#22D3EE">github.com/ATG-AVI</text>
+    </a>
+    <text x="644" y="558" fill="#475569">·</text>
+    <a href="https://www.linkedin.com/in/atg-avi" target="_blank">
+      <text x="658" y="558" fill="#94A3B8">linkedin.com/in/atg-avi</text>
+    </a>
+    <text x="836" y="558" fill="#475569">·</text>
+    <a href="mailto:imaviralsharma@gmail.com">
+      <text x="850" y="558" fill="#94A3B8">imaviralsharma@gmail.com</text>
+    </a>
+    <text x="1128" y="558" text-anchor="end" font-size="10.5" fill="#64748B" letter-spacing="0.8">[ EOF ]</text>
+  </g>
+</svg>
